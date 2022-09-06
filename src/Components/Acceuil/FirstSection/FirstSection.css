@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.First-Section
+{
+    min-height: 300vh;
+    margin-top: 10vh;
+}
+
+
+
+
+
+.F-BG
+{
+    background: url("https://cutewallpaper.org/24/gif-doctor-cartoon/pin-on-motion-graphic.gif");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+    border: 0;
+
+    
+    
+}
+.T-BG
+{
+    background: url("https://cdn.dribbble.com/users/2025439/screenshots/4062776/ml_gif4.gif");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+    border: 0;
+    
+    
+    
+}
+.S-BG
+{
+    background: url("https://i.pinimg.com/originals/ac/14/0a/ac140a627af854f14c7f653efd7d53ae.gif");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+    border: 0;
+    
+    
+    
+}
+.C-BG
+{
+    background: url("https://i.pinimg.com/originals/30/85/a3/3085a378410963037778bfa9fb4753fa.gif");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+    border: 0;
+    
+    
+    
+}
+
+
+.P-BG
+{
+    background: url("https://i.pinimg.com/originals/c2/e4/c9/c2e4c99589554b8e17c77b1e3676604a.gif");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+    border: 0;
+    
+    
+    
+}
+
+.O-BG
+{
+    background: url("https://i.pinimg.com/originals/29/24/62/2924624b72ad602afebc66b4cb862a11.gif");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+    border: 0;
+    
+    
+    
+}
+
+.K-BG
+{
+    background: url("https://i.pinimg.com/originals/b4/3d/b7/b43db78f64c8e26fb580bb7f00b66222.gif");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+    border: 0;
+    
+    
+    
+}
+
+.F-titre
+{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    
+    
+}
+
+
+.F-B
+{
+  
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 5vh;
+    
+    
+}
+
+
+@media screen and (min-width: 1000px)
+{
+    .F-CT
+{   
+    
+    
+    border-radius: 1rem;
+
+  background-color: rgb(242, 246, 233);
+  
+   align-items: center;
+   justify-content: center;
+   
+    
+}
+
+.F-Row
+{
+    height: 40vh;
+    max-height: 40vh;
+    
+   
+}
+.C-Row
+{
+    height: 40vh;
+    max-height: 40vh;
+    margin-top: 20vh;
+   
+}
+.S-Row
+{
+    height: 35vh;
+    max-height: 35vh;
+    margin-top: 20vh;
+   
+}
+.T-Row
+{
+    height: 40vh;
+    max-height: 40vh;
+    margin-top: 20vh;
+   
+}
+}
+@media screen and (max-width: 1000px)
+{
+    .F-CT
+{   
+    
+    
+    border-radius: 1rem;
+
+  background-color: rgb(241, 246, 231);
+  
+   align-items: center;
+   justify-content: center;
+   margin-top: 3vh;
+    
+}
+
+.C-Row
+{
+    height: 100vh;
+    max-height: 100vh;
+    margin-top: 10vh;
+   
+}
+.F-Row
+{
+    height: 80vh;
+    max-height: 80vh;
+    
+    
+   
+}
+.S-Row
+{
+    height: 80vh;
+    max-height: 80vh;
+    margin-top: 10vh;
+   
+}
+.T-Row
+{
+    height: 80vh;
+    max-height: 80vh;
+    margin-top: 10vh;
+   
+}
+
+}
+
+
+
+
+
+.FST
+{
+    margin-top: 20vh;
+   
+}
+
+
+
+
+
+
+
+
+/* .background-img
+{
+        width: 1000px;
+        position: relative;
+        background-position: right;
+        background-repeat: no-repeat;
+        
+        margin-right: 50px;
+        padding-right: 70px;
+        margin-top: 10%;
+    }
+    
+    .btn-connect
+    {
+        display: flex;
+        
+        position: relative;
+        margin-top: 2cm;
+        
+        justify-content: center;
+        
+    }
+    
+    #btn-connect
+    {
+        width: 7cm;
+        
+    } */
+    /* nav
+    {
+    position: absolute;
+    
+} */
+/* .text
+{
+    margin-top: 40%;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #000000;
+    
+    position: relative;
+    
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+    
+} */

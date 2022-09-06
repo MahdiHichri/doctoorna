@@ -1,0 +1,156 @@
+
+
+@media screen and (min-width:1000px)
+{
+    .BMI-container
+{
+    border-style: solid;
+    border-radius: 2rem;
+    height: fit-content;
+    margin-top: 10vh;
+}
+.b-2
+{
+    
+    height: 50vh;
+    width: 100%;
+    margin-left: 0vh;
+    margin-top: 5vh;
+}
+}
+
+@media screen and (max-width:1000px)
+{
+    .BMI-container
+{
+    border-style: solid;
+    border-radius: 2rem;
+    height: fit-content;
+    margin-top: 1vh;
+}
+.b-2
+{
+    
+    height: fit-content;
+    width: 100%;
+    margin-left: 0vh;
+    margin-top: 2vh;
+}
+
+}
+
+.b-1
+{
+   
+    width: 100%;
+    margin-left: 0vh;
+}
+
+
+
+
+.b-3
+{
+    background: url("https://i.gifer.com/ATSa.gif");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+    border: 0;
+    border-color: #18bc9c;
+    border-style: solid;
+}
+
+
+
+.b-s
+{
+    border-style: solid;
+}
+
+.b-s-1
+{
+    border-radius: 1rem;
+}
+
+.form-bmi-header
+{
+    height: 10vh;
+    background-color: #d1e7dd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-bmi-height,.form-bmi-weight
+{
+    align-items: center;
+    justify-items: center;
+}
+.form-bmi-content
+{
+    margin-top: 5vh;
+}
+
+
+@media screen and (min-width:380px)
+{
+    .form-bmi-footer
+{
+    height: 10vh;
+    margin-top: 1vh;
+}
+}
+@media screen and (max-width:380px)
+{
+    .form-bmi-footer
+{
+    height: 10vh;
+    margin-top: 1vh;
+}
+}
+.form-bmi-footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-bmi-button 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vh;
+}
+.form-bmi-button button
+{
+    width: 20vh;
+}
+.bmi-form
+{
+    height: 50vh;
+    border-radius: 1rem;
+    border-color: #18bc9c;
+}
+
+.BMI-footer
+{
+    
+    margin-top: 2vh;
+    
+}
+.form-bmi-header span
+{
+   
+    justify-content: center;
+}
+.BMI-result
+{
+   
+    height: fit-content;
+}
+.BMI-result .alert
+{
+    border-radius: 2rem;
+}

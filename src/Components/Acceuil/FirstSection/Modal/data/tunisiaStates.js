@@ -1,0 +1,27 @@
+export const tunsiaStates=
+[
+"Ariana",
+"Béja",
+"Ben Arous",
+"Bizerte",
+"Gabès",
+"Gafsa",
+"Jendouba",
+"Kairouan",
+"Kasserine",
+"Kebili",
+"Kef",
+"Mahdia",
+"Manouba",
+"Medenine",
+"Monastir",
+"Nabeul",
+"Sfax",
+"Sidi Bouzid",
+"Siliana",
+"Sousse",
+"Tataouine",
+"Tozeur",
+"Tunis",
+"Zaghouan"
+]

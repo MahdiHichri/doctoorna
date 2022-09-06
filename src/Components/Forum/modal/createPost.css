@@ -1,0 +1,23 @@
+.createPost-content 
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.userName-Picture
+{
+    height: 15vh;
+    width: 30%;
+    margin-right: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 100%;
+    background-image: url("https://cdn.dribbble.com/users/1684249/screenshots/15431837/media/b8793da764afaf229379b316181bf8eb.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.createPost-content .form-group
+{
+    margin-bottom: 3vh;
+}

@@ -1,0 +1,167 @@
+.profile-container
+{
+    height: fit-content;
+    margin-top: 20vh;
+    padding: 0;
+}
+.profile-resume-container
+{
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color: #f2f6e9;
+    border-radius: 1.5rem;
+    border-color: #18bc9c;
+}
+
+.profile-pic
+{
+    height: 70%;
+
+    align-items: center;
+    justify-content: center;
+}
+.profile-edit ,.profile-consulter
+{
+    height: 15%;
+    justify-content: center;
+}
+.profile-edit ,.profile-consulter button
+{
+    border-radius: 0rem;
+}
+
+.P-pic
+{
+    margin: 0.5vh;
+    margin-bottom: 1vh;
+    height: 100%;
+    border-radius: 100%;
+    margin-top: 5%;
+    background-image: url("https://cdn.dribbble.com/users/1684249/screenshots/15431837/media/b8793da764afaf229379b316181bf8eb.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-consulter-profile
+{
+    width: 100%;
+    
+}
+
+@media screen and (max-width:1000px)
+{
+    .P-pic
+    {
+        width: 50%;
+    }
+    .profile-content
+{
+    height: fit-content;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    border-color: #18bc9c;
+    background-color: white;
+}
+}
+@media screen and (min-width:1000px)
+{
+    .P-pic
+    {
+        width: 50%;
+    }
+    .profile-content
+{
+    height: 50vh;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    border-color: #f2f6e9;
+    background-color: white;
+}
+}
+.profile-header h1
+{
+    margin-left: 10%;
+}
+.profile-header
+{
+    background-color: #f2f6e9;
+    width: 100%;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.update-profile 
+{
+    margin-top: 2%;
+}
+.consulter-profile 
+{
+    margin-top: 5%;
+}
+.profile-details div label
+{
+    display: flex;
+    align-items: center;
+}
+
+.update-profile .col-lg-3 div
+{
+    background-color: #f2f6e9;
+    position: relative;
+    margin-bottom: 1vh;
+    height: 5vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align:justify;    
+    border-radius: 1rem;
+}
+
+.consulter-profile .col-lg-3 div
+{
+    
+    position: relative;
+    margin-bottom: 1vh;
+    height: 5vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align:justify;    
+}
+.profile-labels div
+{
+    background-color: #f2f6e9;
+    position: relative;
+    margin-bottom: 1vh;
+    height: 5vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align:justify;    
+    
+    
+    border-radius: 1rem;
+}
+
+.checkDoctorPOSTE:hover
+{
+    color: black;
+}
+.checkDoctorPOSTE::after
+{
+    color: black;
+}
+
+.accordion-button:not(.collapsed) {
+
+    background-color: "black";
+    
+}

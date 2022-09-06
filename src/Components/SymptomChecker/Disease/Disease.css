@@ -1,0 +1,72 @@
+.DiseaseComponent {
+  color: #000;
+  padding: 0.5rem 1rem;
+  line-height: 1.7;
+}
+.patientInfo {
+  color: rgb(24 188 156);
+}
+
+.patientQuestions,
+.reportDiv {
+  padding: 0.5rem 0rem;
+  border-top: 2px solid rgb(24 188 156);
+}
+
+.singleQuestion:not(:first-child) {
+  border-top: 1px solid #c9c9c9;
+}
+.singleQuestion > p:not(:first-child) {
+  color: rgb(24 188 156);
+}
+
+.titleReport > h4 {
+  font-size: 1.2rem;
+}
+.titleReport > a {
+  background-color: rgb(24 188 156);
+  color: white;
+  line-height: 1.5rem;
+  padding: 0 0.6rem;
+  border-radius: 2rem;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.titleReport > a:focus {
+  outline: none;
+}
+div.Possibility span {
+  color: rgb(24 188 156);
+  font-weight: 600;
+}
+.possibilityProgressBar {
+  background-color: #cfd6dd;
+  width: 100px;
+  height: 4px;
+  margin-left: 0.5rem;
+  border-radius: 1rem;
+}
+.possibilityProgressBar > div {
+  height: 100%;
+  background-color: rgb(24 188 156);
+}
+
+.diseaseSymptoms {
+  border-top: 1px solid #c9c9c9;
+  /* border-bottom: 1px solid #c9c9c9; */
+}
+
+.diseaseSymptoms > ul {
+  list-style: none;
+}
+.diseaseSymptoms > ul > li {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  margin: 0.2rem 0.2rem;
+  border-radius: 0.5rem;
+}
+.diseaseSymptoms > ul > li.active {
+  /* background-color: rgb(24 188 156); */
+  border: 1px solid rgb(24 188 156);
+  color: rgb(24 188 156);
+}

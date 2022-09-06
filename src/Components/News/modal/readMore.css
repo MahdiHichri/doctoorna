@@ -1,0 +1,76 @@
+.readMore-pic
+{
+    background: url("https://www.gannett-cdn.com/presto/2022/07/14/USAT/9d5b2ee7-29c1-42d6-ac35-9e39bc8372c3-GettyImages-1283397420.jpg?auto=webp&crop=5099,2869,x0,y750&format=pjpg&width=1200");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+@media screen and (min-width:1000px) 
+{
+    .readMore-pic
+{
+    
+    height: 50vh;
+}
+}
+
+@media screen and (max-width:1000px) 
+{
+    .readMore-pic
+{
+    
+    height: 20vh;
+}
+}
+
+.readMore-content
+{
+   
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.readMore-author
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 2vh;
+}
+.readMore-description ,.readMore-contents
+{
+    background-color: rgb(241, 246, 231) ;
+}
+
+@media screen and (max-width:1000px) 
+{
+    .readMore-content
+{
+    margin-top: 5vh;
+}
+}
+
+.readMore-content p
+{
+    text-align: justify;
+}
+
+.readMore-row
+{
+    margin-top: 5vh;
+}
+
+.readMore-published
+{
+  display: flex;
+  justify-content: flex-end;
+}
+.readMore-button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

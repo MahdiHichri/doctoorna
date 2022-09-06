@@ -1,0 +1,64 @@
+.forum-content
+{
+    margin-top: 10%;
+    height: 65vh;
+    
+    overflow-y: scroll;
+    
+}
+.search-topics
+{
+    margin-right: 2vh;
+}
+.navbar-forum 
+{
+
+}
+.filter-forum
+{
+    height: 10vh;
+    margin-bottom: 1vh;
+    justify-content: center;
+}
+.forum-container
+{
+    margin-top: 7vh;
+}
+.forum-content
+{
+   
+    padding: 0;
+    margin: 0;
+}
+@media screen and (min-width:1000px)
+{
+    .forum-content
+    {
+        height: 65vh;
+        overflow: hidden;
+        overflow-y: scroll;
+        
+    }
+}
+
+@media screen and (max-width:1000px)
+{
+    .forum-content
+    {
+        height: 65vh;
+    }
+}
+
+.forum-prev-next-btns
+{
+
+    margin-top: 1vh;
+    height: 5vh;
+}
+
+.display-align-justify
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

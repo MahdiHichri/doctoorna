@@ -1,0 +1,179 @@
+*,
+*::before,
+*::after
+{
+    box-sizing: border-box;
+}
+
+.news-card
+{
+    font-family: sans-serif;
+    background: hsl(207, 19%, 9%);
+    color: hsl(0, 0%, 100%);
+    padding: 10rem 0 0;
+    max-width: 30ch ;
+    max-height: 40vh;
+    min-height: 40vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0.8rem;
+    overflow: hidden;
+
+    transition: transform 500ms ease;
+
+    margin-top: 5vh;
+}
+.description-none
+{
+    height: 14vh;
+}
+
+@media (pointer:none), (pointer:coarse) 
+{
+    .news-card
+{
+  
+    padding: 2rem 0 0;
+}
+
+}
+
+@media screen and (min-width:1000px)
+{
+
+.news-card-description
+{
+    min-height: 20vh;
+    max-height: 20vh;
+
+}
+}
+@media screen and (max-width:1000px)
+{
+
+.news-card-description
+{
+    min-height: 22vh;
+    max-height: 22vh;
+
+}
+}
+
+
+
+.news-card:hover,
+.news-card:focus-within
+{
+    transform: scale(1.05);
+}
+
+
+
+
+
+.card-content
+{
+    padding: 1rem;
+    background: linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(20 0% 0% / 0.3) 20%,
+         hsl(0 0% 0% / 1)
+    );
+
+}
+
+.news-card-title
+{
+    min-height: 5vh;
+}
+
+.card-title
+{
+    position: relative;
+    width: max-content;
+    max-width: 100%;
+}
+
+.card-title-annimation::after
+{
+    content: ""; 
+    position: absolute;
+    height: 1px;
+    left: calc(1.5rem * -1);
+    bottom: 0;
+    background: hsl(142, 90%, 61%);
+    
+    width: calc(100% + 1.5rem);
+    padding-top: 3px;
+
+    transition: transform 500ms ease;
+}
+
+.news-card:hover .card-title::after,
+.news-card:focus-within .card-title::after
+{
+    transform: scaleX(1);
+}
+
+.card-body
+{
+    padding-top: 15px;
+}
+
+
+
+@media (hover) 
+{
+    .card-content
+    {
+        transform: translateY(20%);
+        transition: transform 500ms ease;
+    }
+    
+    .news-card:hover .card-content,
+    .news-card:focus-within .card-content
+    {
+        transform: translateY(-42%);
+        transition-delay: 500ms;
+    }
+
+    .news-card:focus-within .card-content
+    {
+        transition-duration: 0ms;
+    }
+    .news-card:hover .card-content > *:not(.card-title),
+    .news-card:focus-within .card-content > *:not(.card-title)
+    {
+        opacity: 1;
+        transition-delay: 650ms;
+    }
+
+    .card-content > *:not(.card-title)
+    {
+        opacity: 0;
+        transition: opacity 500ms linear;
+    }
+
+    .card-title::after
+    {
+        transform: scaleX(0);
+    }
+
+}
+
+.button
+{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(207, 19%, 9%);
+    background-color: hsl(142, 90%, 61%);
+    padding: 0.5em 1.25em;
+    border-radius: 1rem;
+}
+
+.button:hover,
+.button:focus
+{
+    background-color: hsl(0, 0%, 100%);
+}

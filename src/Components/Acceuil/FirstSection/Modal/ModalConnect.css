@@ -1,0 +1,38 @@
+/* .doctor-pic,
+.connect-btn
+{
+    border-style: solid;
+} */
+
+.doctor-pic img
+{
+    max-width: 5cm;
+}
+
+.doctor-pic
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.connect-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    padding-top: 15px;
+    border-radius: 1rem;
+
+    
+}
+
+
+.modal-header
+{
+    display:inline-flex;
+}
+

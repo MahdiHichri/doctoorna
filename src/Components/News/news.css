@@ -1,0 +1,63 @@
+.news-container
+{
+    height: fit-content;
+    background-color: #e8fec7;
+    border-radius: 2rem;
+    
+}
+
+@media screen and (max-width:1000px) 
+{
+    .news-container
+    {
+        margin-top: 5vh;
+    }
+}
+@media screen and (min-width:1000px) 
+{
+    .news-container
+    {
+        margin-top: 10vh;
+    }
+}
+
+.news-cards-list
+{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.lastes-News-brand
+{
+    background-color: #18bc9c;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    
+    border-bottom-right-radius: 0.5rem;
+    
+}
+
+.select-country-news select
+{
+ width: 30%;
+ min-width: max-content;
+    background-color: #18bc9c;
+    border-radius: 0rem;
+    border-bottom-left-radius: 0.5rem;
+    position: absolute;
+    right: 0;
+   
+}
+.select-country-news 
+{
+  
+   display: flex;
+   justify-content: flex-end;
+   justify-items: flex-start;
+   align-items: center;
+   position: relative;
+   
+}
+

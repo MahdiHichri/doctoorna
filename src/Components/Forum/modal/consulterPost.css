@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.consulterPost-container
+{
+    height: 60vh;
+}
+
+.consulterPost-content
+{
+    height: fit-content;
+}
+.conslterPost-header
+{
+    height: fit-content;
+}
+.consulterPost-picture
+{
+    height: 20vh;
+    width: 100%;
+    margin-right: 5vh;
+    border-radius: 1rem;
+    background-image: url("https://c.tenor.com/rk07qeKj1y0AAAAM/cool-sunglasses.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.username-t
+{
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+}
+.mc-title
+{
+    font-family: 'Bree Serif', serif;
+    font-size: 25px;
+}
+.createdAt-t
+{
+    font-family: 'Bree Serif', serif;
+    font-size: 15px;
+}
+
+.consulterPost-description
+{
+    height: 20vh;
+}
+
+.responsePostCol-title
+{
+    height: 5vh;
+    background-color: #f2f6e9;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.postResponseTitle
+{
+    font-family: 'Righteous', cursive;
+}
+.card-consulterPost
+{
+    width: 100%;
+}
+.addResponse-container
+{
+    height: 10vh;
+}
+
+@media screen and (min-width:500px) 
+{
+    .addResponse-pic
+    {
+        width: 7%;
+    }
+}
+@media screen and (max-width:500px) 
+{
+    .addResponse-pic
+    {
+        width: 30%;
+    }
+}
+.addResponse-pic
+{
+    
+    height: 6vh;
+    border-radius: 100%;
+    border-width: 1px;
+    margin-right: 2vh;
+    background-image: url("https://i.pinimg.com/originals/11/df/2b/11df2bc889722dab6946142dc9c70151.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.addResponse-col
+{
+    align-items: center;
+    justify-content: center;
+}
+
+.cp-margin
+{
+    margin-bottom: 2vh;
+}
+
+.consulterCard-title
+{
+    text-align: justify;
+}
+
+.consulterCard-header
+{
+    font-family: 'Righteous', cursive;
+}

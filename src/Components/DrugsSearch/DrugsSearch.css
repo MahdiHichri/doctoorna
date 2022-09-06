@@ -1,0 +1,85 @@
+@media screen and (max-width:1000px)
+{
+  .DrugsSearch-title
+{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+  }
+
+}
+
+@media screen and (min-width:1000px)
+{
+    .DrugsSearch-title
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+}
+@media screen and (min-width:1000px)
+{
+.Drugs-names
+{
+    width: 50%;
+}
+}
+@media screen and (max-width:1000px)
+{
+.Drugs-names
+{
+    width: 90%;
+}
+}
+
+
+.drugs-Suggest-Names:hover
+{
+    background-color: #e8fec7;
+    
+}
+
+.drugs-Suggest-Names
+{
+   cursor: pointer;   
+   border-top: 0;
+   border-radius: 0.7rem;
+   border-color:rgb(134, 131, 131);
+   min-height: max-content;
+}
+
+.Drugs-names
+{
+    max-height: 50vh;
+    overflow-y: scroll;
+    
+}
+.DrugsSearch-container
+{
+    min-height: 92vh;
+    background-color: white;
+
+
+    
+}
+
+@media screen and (min-width:1000px)
+{
+        .DrugsInfo-container
+    {
+        margin-top: 10vh;
+    }
+}
+@media screen and (max-width:1000px)
+{
+        .DrugsInfo-container
+    {
+        margin-top: 5vh;
+    }
+}
+

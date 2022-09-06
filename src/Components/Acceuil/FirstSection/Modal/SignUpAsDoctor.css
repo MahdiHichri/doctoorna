@@ -1,0 +1,243 @@
+
+.bg-big-p
+{
+    background-image: url("https://img.freepik.com/vecteurs-libre/pharmacie-medecin-infirmiere-devant-pharmacie-illustration-vectorielle-dessin-anime-personnage-design_36082-660.jpg?w=2000");
+    background-size: cover;
+    border-style: solid;
+    height: 80vh;
+    background-position:center;
+    margin-top: 10vh;
+}
+.bg-small-p
+{
+    background-image: url("https://thumbs.dreamstime.com/b/pharmacie-avec-le-pharmacien-et-client-dans-compteur-illustration-de-vecteur-conception-personnage-dessin-anim%C3%A9-m%C3%A9decine-fond-151280416.jpg");
+    background-size: cover;
+    background-position: center;
+    border-style: solid;
+    height: 15vh;
+    margin: 0;
+    
+    
+}
+
+
+@media screen and (max-width: 1000px)
+{
+    .SignUp-Form
+{
+    border-style: solid;
+    margin-top: 2vh;
+    height: 80vh;
+    background-color: white;
+    overflow: scroll;
+    
+
+}  
+
+.SignUp-Form-Footer
+{
+    /* border-style: solid; */
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    justify-content: center;
+} 
+}
+@media screen and (min-width: 1000px)
+{
+    .SignUp-Form
+{
+    border-style: solid;
+    margin-top: 10vh;
+    height: 80vh;
+    background-color: white;
+    overflow: hidden;
+    
+
+}   
+.SignUp-Content
+{
+   
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Next-btn
+{
+    margin-right: 30px;
+}
+.SignUp-Form-Footer
+{
+    /* border-style: solid; */
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    justify-content: end;
+}
+}
+
+.SignUp-Form-Header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+hr
+{
+    border-width: 0.1cm;
+    border-color: green;
+
+}
+
+.SignUp-Form-Content
+{
+    /* border-style: solid; */
+    height: 65vh;
+    margin-top: 3vh;
+    background-color: white;
+    overflow-y: scroll;
+}
+form
+{
+    
+    background-color: white;
+}
+
+.Presentation
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Presentation textarea
+{
+    width: 100%;
+}
+.Availability-schedule textarea
+{
+    width: 100%;
+}
+.Availability-schedule
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-p
+{
+    background-color: rgb(222, 248, 250);
+    height: 100vh;
+    
+}
+
+
+
+.SignUp-Form-Footer button
+{
+    border-radius: 1rem;
+    width: 3cm;
+    height: 1cm;
+    
+    font-weight: 1000;
+}
+
+.Reset-btn
+{
+   margin-right: 10px;
+}
+
+/* .SignUp-Form-Footer ~ .Reset-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.SignIn-Form-Content
+{
+   
+    height: 65vh;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SignIn-Form-Content footer
+{
+    margin-bottom: 1cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.SignIn-Form-Content input
+{
+    width: 6cm;
+}
+
+
+#message {
+
+    display:none;
+
+    background: #f1f1f1;
+
+    color: #000;
+
+    position: relative;
+
+    padding: 20px;
+
+    margin-top: 10px;
+
+  }
+
+  #message p {
+
+    padding: 10px 35px;
+
+    font-size: 18px;
+
+  }
+
+  .valid {
+
+    color: rgb(3, 184, 190);
+
+  }
+
+  .valid:before {
+
+    position: relative;
+
+    left: -35px;
+
+    content: "&#10004;";
+
+  }
+
+  .invalid {
+
+    color: red;
+
+  }
+
+  .invalid:before {
+
+    position: relative;
+
+    left: -35px;
+
+    content: "&#10006;";
+
+  }
+
+  .SignUp-Form,.bg-big-p,.bg-small-p,.bg-small-d,.bg-big-d
+  {
+    border-radius: 1rem;
+    border-color: #18bc9c;
+  }
