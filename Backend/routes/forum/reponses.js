@@ -31,6 +31,20 @@ router.get("/:idPost",(req,res)=>
         })
 })
 
+router.get("/doctor/:idDoctor",(req,res)=>
+{
+    Response.find({idDoctor:req.params.idDoctor}).then(data => 
+        {
+            
+            res.json({response:"success",data:data})
+
+          
+        })
+        .catch(err => {
+            res.json({response:"echec",data:err})
+        })
+})
+
 router.get("/post/:idPost",(req,res)=>
 {
     Response.find({idPost:req.params.idPost}).then(data => 
