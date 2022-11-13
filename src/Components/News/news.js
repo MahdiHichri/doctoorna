@@ -52,7 +52,7 @@ export default function News() {
             <div className='col-12'>
                 <div className='row'>
                     <div className='col-5 lastes-News-brand'>
-                        <h2><strong>Lastes News</strong></h2>
+                        <h2><strong>Lastest News</strong></h2>
                     </div>
                     <div className='col select-country-news'>
                         <select className='form-select text-center' onChange={e => handleChangeCountry(e.target.value)} id='select-country-news' name='select-country-news'>
