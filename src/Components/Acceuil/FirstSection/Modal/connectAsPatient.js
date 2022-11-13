@@ -33,6 +33,9 @@ export default function ConnectAsPatient() {
                                     }}
                                     ref={usernamePatient}
                                     name='usernamePatient' style={{width:"50%"}}></input>
+
+<label htmlFor='usernamePatient' className='form-label'style={{width:"50%"}}>Password: </label>
+                                    <input type="text" className='form-control' id='passwordPatient'name='passwordPatient' style={{width:"50%"}}></input>
                                     
                                 <button type='button' className='btn btn-primary' style={{marginTop:"2vh"}}
                                 onClick={()=>

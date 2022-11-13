@@ -28,7 +28,7 @@ export default function Forum() {
     const [data,setData]=useState([])
     const [header,setHeader]=useState({
         "1":"Topics",
-        "2":"posts",
+        "2":"nb posts",
     })
     const [postData,setPostData]=useState({})
     const [listResponse,setListResponse]=useState([])
@@ -37,7 +37,7 @@ export default function Forum() {
         {
             setHeader({
                 "1":"Topics",
-                "2":"posts",
+                "2":"nb posts",
             })
 
                 axios.get("http://localhost:3002/topic/")
@@ -84,7 +84,7 @@ export default function Forum() {
                 {
                     setHeader({
                         "1":"Topics",
-                        "2":"posts",
+                        "2":"nb posts",
                     })
                     setData(topics)
                     
@@ -94,7 +94,7 @@ export default function Forum() {
                     setData(posts)
                     setHeader({
                         "1":"Posts",
-                        "2":"Responses",
+                        "2":"nb Responses",
                     })
                 }
             }
@@ -105,7 +105,7 @@ export default function Forum() {
         {
             setHeader({
                 "1":"Topics",
-                "2":"posts",
+                "2":"nb posts",
             })
             setData(topics)
         }
@@ -116,7 +116,7 @@ export default function Forum() {
             setNext(20)
             setHeader({
                 "1":"Posts",
-                "2":"Responses",
+                "2":"nb Responses",
             })
             axios.get("http://localhost:3002/post/topic/"+Topic.topic)
             .then((res)=>
